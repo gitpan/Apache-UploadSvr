@@ -22,7 +22,7 @@ use Apache::UploadSvr::Dictionary;
 use strict;
 use vars qw( @Legalactions %Legalactions $VERSION);
 
-$VERSION = sprintf "%d.%03d", q$Revision: 1.23 $ =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%03d", q$Revision: 1.24 $ =~ /(\d+)\.(\d+)/;
 
 @Legalactions = qw/publish unzip lowercase linkcheck delete/;
 %Legalactions = (
@@ -841,7 +841,11 @@ Apache::UploadSvr - A Lightweight Publishing System for Apache
 
 This module implements a small publishing system for a web server with
 authentication, simple security, preview, directory viewer and an interface
-to delete files.
+to delete files. The whole system is actually running software on
+www.kulturbox.de at the time of publishing (i.e. Summer 1998).
+
+The author is looking for somebody to take this code over for
+maintainance.
 
 =head1 CONFIGURATION
 
@@ -888,6 +892,12 @@ write access.
 =head1 BUGS
 
 
+
+=head1 COPYRIGHT
+
+The application and accompanying modules are Copyright KULTURBOX, Berlin.
+It is free software and can be used, copied and redistributed at the same
+terms as perl itself.
 
 =head1 AUTHOR
 

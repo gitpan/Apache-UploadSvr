@@ -1,5 +1,6 @@
 MANIFEST
 Makefile.PL
+README
 lib/Apache/UploadSvr.pm
 lib/Apache/UploadSvr/Dictionary.data
 lib/Apache/UploadSvr/Dictionary.pm
